@@ -1,0 +1,107 @@
+.login {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+
+  padding: 100px;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+.input {
+  border-radius: 1rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.login-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 1rem;
+  background: #d23333;
+  color: #f7f8fa;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+@media only screen and (min-width: 768px) {
+  /* for desktop use */
+  .login-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 1rem;
+    padding: 20px;
+    background: #d23333;
+    color: #f7f8fa;
+    font-size: 25px;
+    font-weight: 600;
+    width: 50%;
+  }
+  .login {
+  }
+
+  .input {
+    border-radius: 1rem;
+    width: 50%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: 700;
+    margin-top: 20px;
+  }
+  .label {
+    margin: 10px;
+  }
+
+  .button {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border-radius: 1rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: white;
+    background: rgb(20, 205, 20);
+    border-width: 1px;
+    font-size: large;
+    font-weight: 600;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* for mobile use */
+  .login {
+    /* max-height: fit-content; */
+  }
+
+  .login-box {
+    padding: 30px;
+  }
+  .button {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border-radius: 1rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: white;
+    background: rgb(20, 205, 20);
+    border-width: 2px;
+    font-size: large;
+  }
+}

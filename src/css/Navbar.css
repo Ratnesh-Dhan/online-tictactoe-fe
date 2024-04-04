@@ -4,9 +4,9 @@
   display: flex;
   justify-content: space-around;
 
-  position: fixed;
-  top: 0;
-  width: 100%;
+  /* position: fixed; */
+  /* top: 0; */
+  /* width: 100%; */
   background: #fff;
 
   padding-top: 20px;

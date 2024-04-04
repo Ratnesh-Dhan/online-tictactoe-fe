@@ -16,29 +16,7 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
-  /* for desktop use */
-  .login-box {
-    border-radius: 10rem;
-    padding: 20px;
-    background: #d23333;
-    color: #f7f8fa;
-    font-size: 20px;
-    font-weight: 600;
-    width: 50%;
-  }
-  .login {
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-    height: 100dvh;
-    background: aquamarine;
-  }
-}
 
-@media only screen and (max-width: 768px) {
-  /* for mobile use */
-}
 
 .app-class {
   overflow-y: auto;
